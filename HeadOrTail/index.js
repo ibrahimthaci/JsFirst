@@ -25,12 +25,10 @@ function GameFunction(e){
     if (Human === ComputerGuess){
         WinnerMessage = "Human won "
         score[0]++
-        playerWon = 1;
     }
     else{
         WinnerMessage = "Computer won "
         score[1]++
-        playerWon = 0;
     }
     message.innerHTML += "Player score is "+score[0]+ " Computer score is "+ score[1];
      
