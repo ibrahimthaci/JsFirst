@@ -7,11 +7,9 @@ let hightscore = "";
 
 document.querySelector(".checkButton").addEventListener("click", function () {
   let guess = parseInt(document.querySelector(".guess").value);
-  console.log(guess);
 
   //No input
   if (!guess) {
-    console.log("wrong number");
     document.querySelector("#first").textContent =
       "No number, please add number😁";
 
