@@ -7,25 +7,104 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div
-      class="bg-yellow-200 flex justify-items-center m-auto w-2/3 h-2/3 mt-28"
-    >
-      <div class="bg-blue-500 grid w-1/2 m-auto">
-        <h1 class="text-3xl mb-6 mt-10 justify-self-center">Player 1</h1>
-        <h1 class="text-red-600 text-3xl justify-self-center">0</h1>
-        <div class="grid bg-slate-700 mt-36 mb-20 rounded m-auto w-1/2">
-          <h3 class="px-16 py-4 justify-self-center text-xl">Current</h3>
-          <h3 class="px-16 py-4 justify-self-center text-xl">0</h3>
+    <div class="flex justify-items-center m-auto w-2/3 h-2/3 mt-28">
+      <div class="bg-blue-600 grid w-1/2 m-auto">
+        <h1 class="text-3xl text-zinc-50 mb-6 mt-10 justify-self-center">
+          Player 1
+        </h1>
+        <h1 class="text-zinc-50 text-4xl justify-self-center">0</h1>
+        <div class="grid bg-blue-900 mt-36 mb-20 rounded m-auto w-1/2">
+          <h3 class="px-16 py-4 justify-self-center text-xl text-zinc-50">
+            Current
+          </h3>
+          <h3 class="px-16 py-4 justify-self-center text-xl text-zinc-50">0</h3>
         </div>
       </div>
 
-      <!-- /*second*/ -->
-      <div class="bg-green-500 grid w-1/2 m-auto">
-        <h1 class="text-3xl mb-6 mt-10 justify-self-center">Player 1</h1>
-        <h1 class="text-red-600 text-3xl justify-self-center">0</h1>
-        <div class="grid bg-slate-700 mt-36 mb-20 rounded m-auto w-1/2">
-          <h3 class="px-16 py-4 justify-self-center text-xl">Current</h3>
-          <h3 class="px-16 py-4 justify-self-center text-xl">0</h3>
+      <div class="bg-cyan-400 grid w-1/2 m-auto">
+        <h1 class="text-zinc-50 text-3xl mb-6 mt-10 justify-self-center">
+          Player 2
+        </h1>
+        <h1 class="text-zinc-50 text-4xl justify-self-center">0</h1>
+        <div class="grid bg-blue-900 mt-36 mb-20 rounded m-auto w-1/2">
+          <h3 class="px-16 py-4 justify-self-center text-xl text-zinc-50">
+            Current
+          </h3>
+          <h3 class="px-16 py-4 justify-self-center text-xl text-zinc-50">0</h3>
+        </div>
+      </div>
+
+      <!-- Middle features -->
+      <div class="grid middle">
+        <div class="flex flex-col justify-center">
+          <a href="">
+            <div class="flex w-36 bg-slate-100 rounded-md justify-center">
+              <img
+                class="w-5 h-5 m-2"
+                src="./img/sync.png"
+                alt="reload"
+                srcset=""
+              />
+              <h1 class="mt-1">New Game</h1>
+            </div></a
+          >
+        </div>
+
+        <div class="flex flex-col justify-center">
+          <button type="button">
+            <div class="flex w-36 rounded-md justify-center">
+              <svg
+                class="h-16"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path d="M0 0h512v512H0z" fill="#000" fill-opacity="1"></path>
+                <g class="" transform="translate(0,0)">
+                  <path
+                    d="M74.5 36A38.5 38.5 0 0 0 36 74.5v363A38.5 38.5 0 0 0 74.5 476h363a38.5 38.5 0 0 0 38.5-38.5v-363A38.5 38.5 0 0 0 437.5 36h-363zm48.97 36.03A50 50 0 0 1 172 122a50 50 0 0 1-100 0 50 50 0 0 1 51.47-49.97zm268 0A50 50 0 0 1 440 122a50 50 0 0 1-100 0 50 50 0 0 1 51.47-49.97zM256 206a50 50 0 0 1 0 100 50 50 0 0 1 0-100zM123.47 340.03A50 50 0 0 1 172 390a50 50 0 0 1-100 0 50 50 0 0 1 51.47-49.97zm268 0A50 50 0 0 1 440 390a50 50 0 0 1-100 0 50 50 0 0 1 51.47-49.97z"
+                    fill="#fff"
+                    fill-opacity="1"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </button>
+        </div>
+
+        <div class="flex flex-col justify-end">
+          <button type="button">
+            <div
+              class="flex w-36 bg-slate-100 rounded-md test p-2 justify-around"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7"
+                viewBox="0 0 640 512"
+              >
+                <path
+                  d="M252.3 11.7c-15.6-15.6-40.9-15.6-56.6 0l-184 184c-15.6 15.6-15.6 40.9 0 56.6l184 184c15.6 15.6 40.9 15.6 56.6 0l184-184c15.6-15.6 15.6-40.9 0-56.6l-184-184zM248 224c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24zM96 248c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm128 80c13.3 0 24 10.7 24 24s-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24zm128-80c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zM224 72c13.3 0 24 10.7 24 24s-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24zm96 392c0 26.5 21.5 48 48 48H592c26.5 0 48-21.5 48-48V240c0-26.5-21.5-48-48-48H472.5c13.4 26.9 8.8 60.5-13.6 82.9L320 413.8V464zm160-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"
+                />
+              </svg>
+              <h1 class="mt-1">Roll Dice</h1>
+            </div>
+          </button>
+        </div>
+
+        <div class="flex flex-col justify-start mt-4 mb-7">
+          <button type="button">
+            <div class="flex w-36 bg-slate-100 rounded-md justify-around p-1">
+              <svg
+                class="h-7"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4L224 214.3V256v41.7L52.5 440.6zM256 352V256 128 96c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4l192 160c7.3 6.1 11.5 15.1 11.5 24.6s-4.2 18.5-11.5 24.6l-192 160c-9.5 7.9-22.8 9.7-34.1 4.4s-18.4-16.6-18.4-29V352z"
+                />
+              </svg>
+              <h1 class="">Hold</h1>
+            </div>
+          </button>
         </div>
       </div>
     </div>
