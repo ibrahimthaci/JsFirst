@@ -16,12 +16,19 @@ body {
   visibility: hidden;
 }
 
-.player--0{background-color: rgb(37 99 235);}
-.player--1{background-color: rgb(59, 117, 244);}
+/* removed tailwind background on Player 1-2 in order to use toggle and added vanila css */
+.player--0 {
+  background-color: rgb(37 99 235);
+}
+.player--1 {
+  background-color: rgb(59, 117, 244);
+}
 
+.player--active {
+  background-color: rgba(37, 99, 235, 0.2);
+}
 
-.player--active {background-color: rgba(37, 99, 235, 0.2);}   
-
-
-
+.winnerClass {
+  background-color: rgb(226, 19, 136);
+}
 
