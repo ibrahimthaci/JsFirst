@@ -31,8 +31,6 @@ RollDice.addEventListener("click", function () {
     document.querySelector(`.Current-${activePlayer}`).textContent =
       currentScore;
   } else {
-    document.querySelector(`.Player-${activePlayer}-result`).textContent =
-      scores[activePlayer];
     document.querySelector(`.Current-${activePlayer}`).textContent = 0;
     currentScore = 0;
     activePlayer = activePlayer === 0 ? 1 : 0;

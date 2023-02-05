@@ -16,6 +16,12 @@ body {
   visibility: hidden;
 }
 
-.player--active{
-  background-color: red;
-}
+.player--0{background-color: rgb(37 99 235);}
+.player--1{background-color: rgb(59, 117, 244);}
+
+
+.player--active {background-color: rgba(37, 99, 235, 0.2);}   
+
+
+
+
