@@ -19,7 +19,7 @@ function GameFunction(e) {
   let ComputerGuess = coin[Computer];
   let playerWon = 0;
 
-  message.innerHTML = "Computer selected " + ComputerGuess + "<br>";
+  message.innerHTML = "<h1>"+"Computer selected " + ComputerGuess + "</h1>"+"<br>";
 
   if (Human === ComputerGuess) {
     WinnerMessage = "Human won ";
@@ -29,7 +29,7 @@ function GameFunction(e) {
     score[1]++;
   }
   message.innerHTML +=
-    "Player score is " + score[0] + " Computer score is " + score[1];
+    "<h1> "+" Player score is " + score[0] + " Computer score is " + score[1]+"</h1>";
 
   if (Human === ComputerGuess) {
     winner.style.color = "White";
